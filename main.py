@@ -38,7 +38,7 @@ def update_from_github():
     except Exception as e:
         print(colored(f"Error while updating: {e}", "red"))
 
-def load_rich_list_from_file(file_path="rich_list.txt"):
+def load_rich_list_from_file(file_path="btc.txt"):
     global rich_addresses
     try:
         with open(file_path, "r") as f:
